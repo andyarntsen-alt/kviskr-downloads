@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Kviskr</title>
+    <link>https://andyarntsen-alt.github.io/kviskr-downloads/appcast.xml</link>
+    <description>Oppdateringer for Kviskr</description>
+    <language>no</language>
+  </channel>
+</rss>
