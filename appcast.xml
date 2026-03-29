@@ -18,7 +18,7 @@
         type="application/octet-stream"
       />
     </item>
-      <item>
+    <item>
       <title>Kviskr 0.3.3</title>
       <pubDate>Sun, 29 Mar 2026 19:09:03 +0200</pubDate>
       <sparkle:version>23</sparkle:version>
@@ -26,7 +26,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/andyarntsen-alt/kviskr/releases/download/v0.3.3/Kviskr.dmg"
-        sparkle:edSignature="2x7i1yjUNmG7jRwAowVeFADOkDVWcj3JBKDOi2QEp/WMgqQTAApf+MES/JFCTvSnhhd6pi08o0UEJmJjQzf9Cw==" length="1045753099"
+        sparkle:edSignature="2x7i1yjUNmG7jRwAowVeFADOkDVWcj3JBKDOi2QEp/WMgqQTAApf+MES/JFCTvSnhhd6pi08o0UEJmJjQzf9Cw=="
         length="1045753099"
         type="application/octet-stream"
       />
