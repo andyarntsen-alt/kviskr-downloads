@@ -25,7 +25,7 @@
       <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/andyarntsen-alt/kviskr/releases/download/v0.3.3/Kviskr.dmg"
+        url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.3.3/Kviskr.dmg"
         sparkle:edSignature="2x7i1yjUNmG7jRwAowVeFADOkDVWcj3JBKDOi2QEp/WMgqQTAApf+MES/JFCTvSnhhd6pi08o0UEJmJjQzf9Cw=="
         length="1045753099"
         type="application/octet-stream"
