@@ -1,22 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>Kviskr</title>
     <link>https://andyarntsen-alt.github.io/kviskr-downloads/appcast.xml</link>
     <description>Oppdateringer for Kviskr</description>
     <language>no</language>
     <item>
-      <title>Kviskr 0.3.2</title>
-      <pubDate>Sat, 29 Mar 2026 00:00:00 +0100</pubDate>
-      <sparkle:version>21</sparkle:version>
-      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <title>Kviskr 0.3.4</title>
+      <pubDate>Tue, 31 Mar 2026 23:22:03 +0200</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure
-        url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.3.2/Kviskr.dmg"
-        sparkle:edSignature="If9B23F8yKMGrTJ7HP5OT1Lrd/GXxXbewd7tM2zz4OKbbJCjEYwSvx0Qbzvo99eyl4lLTy+yL9ig/3YCoGUpCw=="
-        length="1055296254"
-        type="application/octet-stream"
-      />
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.3.4/Kviskr.dmg" sparkle:edSignature="66fYGdwIGTpwKi29KWO57cdIHdKdqzGDqwPIvT5+FmvofiMD9FPSX9cIiM4LS7U11tiS8DEarCz7Fv9PyKncAQ==" length="1045946274" type="application/octet-stream" />
     </item>
     <item>
       <title>Kviskr 0.3.3</title>
@@ -24,12 +20,15 @@
       <sparkle:version>23</sparkle:version>
       <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure
-        url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.3.3/Kviskr.dmg"
-        sparkle:edSignature="2x7i1yjUNmG7jRwAowVeFADOkDVWcj3JBKDOi2QEp/WMgqQTAApf+MES/JFCTvSnhhd6pi08o0UEJmJjQzf9Cw=="
-        length="1045753099"
-        type="application/octet-stream"
-      />
+      <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.3.3/Kviskr.dmg" sparkle:edSignature="2x7i1yjUNmG7jRwAowVeFADOkDVWcj3JBKDOi2QEp/WMgqQTAApf+MES/JFCTvSnhhd6pi08o0UEJmJjQzf9Cw==" length="1045753099" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Kviskr 0.3.2</title>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 +0100</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.3.2/Kviskr.dmg" sparkle:edSignature="If9B23F8yKMGrTJ7HP5OT1Lrd/GXxXbewd7tM2zz4OKbbJCjEYwSvx0Qbzvo99eyl4lLTy+yL9ig/3YCoGUpCw==" length="1055296254" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
