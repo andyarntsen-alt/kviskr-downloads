@@ -13,7 +13,7 @@
       <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.4.1/Kviskr.dmg" length="1055700060" type="application/octet-stream" sparkle:edSignature="nNk5zoNZRiRvu0OjhYPODfgPQG/QrmLeAN1IlnHYLh5+xSgjq7yLB5+NkShVerOF42Fol6K6I5dFrES45JPHBw==" />
+      <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.4.1/Kviskr.dmg" length="1046017053" type="application/octet-stream" sparkle:edSignature="wktgpvF/dikx8xsgaFR4EN+T76HIDPXpZrgXt0DkE8LA14Un5vINn0Gf7EhTQ+SLsDc44CRLOixrIY+3PNRKDg==" />
       <sparkle:deltas>
         <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.4.1/Kviskr30-28.delta" sparkle:deltaFrom="28" length="2223642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OveTrwLWsuwVHwabBfF728Q1PPavpbuczSYB17mezMpoa8dAqP9iBRPlaaQIhKKMX3JU2rM7/qbHFXtOAB5wDw==" />
         <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.4.1/Kviskr30-27.delta" sparkle:deltaFrom="27" length="2648618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JlLAAFQ3jAh6BCazuid/D9pBFAYj67itxOHKmr5P1/N/wPL2Q8jgnvxOVh/nlwf9jaYm4zARmRTEgkD4FrlBCA==" />
