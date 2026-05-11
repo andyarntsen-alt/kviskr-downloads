@@ -1,0 +1,67 @@
+name: Snapshot download stats
+
+on:
+  schedule:
+    - cron: '0 22 * * 0'  # Søndag 22:00 UTC = mandag 00:00 norsk tid
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch download counts
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p analytics
+          DATE=$(date -u +%Y-%m-%d)
+          TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+          # Hent alle releases + per-asset download_count
+          gh api repos/${{ github.repository }}/releases --paginate \
+            --jq '[.[] | {tag: .tag_name, published_at: .published_at, assets: [.assets[] | {name: .name, download_count: .download_count}]}]' \
+            > /tmp/releases.json
+
+          # Totalt + per-versjon DMG-tall
+          TOTAL=$(jq '[.[].assets[].download_count] | add' /tmp/releases.json)
+          DMG_BY_VER=$(jq '[.[] | {tag: .tag, dmg: ([.assets[] | select(.name | test("\\.dmg$")) | .download_count] | add // 0)}]' /tmp/releases.json)
+
+          # Bygg dagens snapshot
+          jq -n \
+            --arg ts "$TS" \
+            --arg date "$DATE" \
+            --argjson total "$TOTAL" \
+            --argjson dmg "$DMG_BY_VER" \
+            --slurpfile releases /tmp/releases.json \
+            '{snapshot_at: $ts, date: $date, total_downloads: $total, dmg_per_version: $dmg, releases: $releases[0]}' \
+            > "analytics/snapshot-$DATE.json"
+
+          # Oppdater stats.json (append til historikk)
+          if [ -f analytics/stats.json ]; then
+            jq --slurpfile new "analytics/snapshot-$DATE.json" '. + [$new[0] | {date: .date, total: .total_downloads, dmg_per_version: .dmg_per_version}]' analytics/stats.json > /tmp/stats.json
+            mv /tmp/stats.json analytics/stats.json
+          else
+            jq -n --slurpfile new "analytics/snapshot-$DATE.json" '[$new[0] | {date: .date, total: .total_downloads, dmg_per_version: .dmg_per_version}]' > analytics/stats.json
+          fi
+
+          echo "📊 Total downloads: $TOTAL"
+          echo "Snapshot: analytics/snapshot-$DATE.json"
+
+      - name: Commit + push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analytics/
+          if git diff --cached --quiet; then
+            echo "Ingen endringer å committe"
+          else
+            git commit -m "analytics: snapshot $(date -u +%Y-%m-%d)"
+            git push
+          fi
