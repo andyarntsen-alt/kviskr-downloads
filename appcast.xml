@@ -98,5 +98,15 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.3.2/Kviskr.dmg" sparkle:edSignature="If9B23F8yKMGrTJ7HP5OT1Lrd/GXxXbewd7tM2zz4OKbbJCjEYwSvx0Qbzvo99eyl4lLTy+yL9ig/3YCoGUpCw==" length="1055296254" type="application/octet-stream" />
     </item>
+    <item>
+      <title>Kviskr 0.5.0</title>
+      <pubDate>Mon, 11 May 2026 14:39:24 +0200</pubDate>
+      <link>https://kviskr.no</link>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.5.0/Kviskr.dmg" length="1069516678" type="application/octet-stream" sparkle:edSignature="n34w1SgmzzdOEB7VJlox3M+FjbgCjyazqJX7cZwM5B/zwLHDuuwyVbX23sGAMBf5pe3imEzyunMGvJJoqwUbCQ==" />
+    </item>
   </channel>
 </rss>
