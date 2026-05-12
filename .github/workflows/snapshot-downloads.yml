@@ -2,7 +2,7 @@ name: Snapshot download stats
 
 on:
   schedule:
-    - cron: '0 22 * * 0'  # Søndag 22:00 UTC = mandag 00:00 norsk tid
+    - cron: '0 22 * * *'  # Daglig 22:00 UTC = 00:00 norsk tid
   release:
     types: [published]
   workflow_dispatch:
