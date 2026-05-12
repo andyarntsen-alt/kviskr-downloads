@@ -6,6 +6,23 @@
     <description>Oppdateringer for Kviskr</description>
     <language>no</language>
     <item>
+      <title>Kviskr 0.5.2</title>
+      <pubDate>Tue, 12 May 2026 20:00:05 +0200</pubDate>
+      <link>https://kviskr.no</link>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.5.2/Kviskr.dmg" length="1058490959" type="application/octet-stream" sparkle:edSignature="Mb4N395i3bS+ptSGmD6fJm3icTyZjIB2AIuPu0B/1y7Bc1+QBKMlTGoSWKg6QDdxl8me5F9ULQMJg89sz6W2BQ==" />
+      <sparkle:deltas>
+        <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.5.2/Kviskr35-33.delta" sparkle:deltaFrom="33" length="625382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ALJNXEWDO93v1ClkRQOrvj8+isg9AUClomJ8xFpRhtop9D3gv3atg8bwFqS22+pN87ru7V2OQM9bo4loIQJGBg==" />
+        <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.5.2/Kviskr35-32.delta" sparkle:deltaFrom="32" length="1244074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qvplbvRXfTuttHhtNfJL7NXTQyJrT5uiQthWUBuYkV6CXahdoq+pc3SwhD2F5T8es+0Ze/tl+LuYq0yzyi5+Dw==" />
+        <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.5.2/Kviskr35-31.delta" sparkle:deltaFrom="31" length="7674606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NVEbQEvxdSF1K1iylFHlhBbcrJkUU1AX0Ifz4omq/qQYkOcuPw6sdkFxUzWHbrBtay0S1iNDU3Kfo+ByCv+8DQ==" />
+        <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.5.2/Kviskr35-30.delta" sparkle:deltaFrom="30" length="13958890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3Do5IcDomsOr4t8BbBZqyrE7+P/GE4xFSYKoL2cx4fN1hhuxKXrpQeqV+N55GlEvWzWt4W5WzRCup/P12tIFDQ==" />
+        <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.5.2/Kviskr35-28.delta" sparkle:deltaFrom="28" length="14691326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YHClfXjo02SbMkAFRqBNIntaFXrM27RusP9d95Zzw8J5rMxxOOQoDAj7lk/8hr4m/0DPtn9WHV6cNB52ozWrAg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Kviskr 0.5.1</title>
       <pubDate>Mon, 11 May 2026 19:32:20 +0200</pubDate>
       <sparkle:version>33</sparkle:version>
