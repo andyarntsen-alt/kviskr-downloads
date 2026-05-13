@@ -25,5 +25,4 @@ Kviskr is proprietary software. This repository does not contain the macOS app s
 
 ## Local path
 
-- Canonical workspace path: `~/Prosjekter/Kviskr/kviskr-downloads`
-- Legacy compatibility path: `~/kviskr-downloads`
+- Workspace: `~/kviskr-downloads`
