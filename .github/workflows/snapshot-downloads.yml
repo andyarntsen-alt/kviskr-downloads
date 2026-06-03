@@ -31,29 +31,49 @@ jobs:
             --jq '[.[] | {tag: .tag_name, published_at: .published_at, assets: [.assets[] | {name: .name, download_count: .download_count}]}]' \
             > /tmp/releases.json
 
-          # Totalt + per-versjon DMG-tall
-          TOTAL=$(jq '[.[].assets[].download_count] | add' /tmp/releases.json)
+          # Totaler. DMG = ny acquisition (faktiske app-nedlastinger),
+          # delta = oppdateringer av eksisterende installasjoner (IKKE nye brukere).
+          TOTAL=$(jq '[.[].assets[].download_count] | add // 0' /tmp/releases.json)
+          DMG_TOTAL=$(jq '[.[].assets[] | select(.name | test("\\.dmg$")) | .download_count] | add // 0' /tmp/releases.json)
+          DELTA_TOTAL=$(jq '[.[].assets[] | select(.name | test("\\.delta$")) | .download_count] | add // 0' /tmp/releases.json)
           DMG_BY_VER=$(jq '[.[] | {tag: .tag, dmg: ([.assets[] | select(.name | test("\\.dmg$")) | .download_count] | add // 0)}]' /tmp/releases.json)
+
+          # Daglig diff: sammenlign mot forrige rad i stats.json (eldre rader mangler
+          # dmg_total, så fall tilbake til sum av dmg_per_version).
+          if [ -f analytics/stats.json ]; then
+            PREV_TOTAL=$(jq '.[-1].total // 0' analytics/stats.json)
+            PREV_DMG=$(jq '(.[-1].dmg_total) // ([.[-1].dmg_per_version[].dmg] | add) // 0' analytics/stats.json)
+          else
+            PREV_TOTAL=0
+            PREV_DMG=0
+          fi
+          TOTAL_NEW=$((TOTAL - PREV_TOTAL))
+          DMG_NEW=$((DMG_TOTAL - PREV_DMG))
 
           # Bygg dagens snapshot
           jq -n \
             --arg ts "$TS" \
             --arg date "$DATE" \
             --argjson total "$TOTAL" \
+            --argjson dmg_total "$DMG_TOTAL" \
+            --argjson delta_total "$DELTA_TOTAL" \
+            --argjson dmg_new "$DMG_NEW" \
+            --argjson total_new "$TOTAL_NEW" \
             --argjson dmg "$DMG_BY_VER" \
             --slurpfile releases /tmp/releases.json \
-            '{snapshot_at: $ts, date: $date, total_downloads: $total, dmg_per_version: $dmg, releases: $releases[0]}' \
+            '{snapshot_at: $ts, date: $date, total_downloads: $total, dmg_total: $dmg_total, delta_total: $delta_total, dmg_new_today: $dmg_new, total_new_today: $total_new, dmg_per_version: $dmg, releases: $releases[0]}' \
             > "analytics/snapshot-$DATE.json"
 
           # Oppdater stats.json (append til historikk)
+          STATS_FIELDS='{date: .date, total: .total_downloads, dmg_total: .dmg_total, delta_total: .delta_total, dmg_new_today: .dmg_new_today, total_new_today: .total_new_today, dmg_per_version: .dmg_per_version}'
           if [ -f analytics/stats.json ]; then
-            jq --slurpfile new "analytics/snapshot-$DATE.json" '. + [$new[0] | {date: .date, total: .total_downloads, dmg_per_version: .dmg_per_version}]' analytics/stats.json > /tmp/stats.json
+            jq --slurpfile new "analytics/snapshot-$DATE.json" ". + [\$new[0] | $STATS_FIELDS]" analytics/stats.json > /tmp/stats.json
             mv /tmp/stats.json analytics/stats.json
           else
-            jq -n --slurpfile new "analytics/snapshot-$DATE.json" '[$new[0] | {date: .date, total: .total_downloads, dmg_per_version: .dmg_per_version}]' > analytics/stats.json
+            jq -n --slurpfile new "analytics/snapshot-$DATE.json" "[\$new[0] | $STATS_FIELDS]" > analytics/stats.json
           fi
 
-          echo "📊 Total downloads: $TOTAL"
+          echo "📊 Total: $TOTAL (+$TOTAL_NEW)  |  DMG/ny: $DMG_TOTAL (+$DMG_NEW)  |  Delta/oppdat.: $DELTA_TOTAL"
           echo "Snapshot: analytics/snapshot-$DATE.json"
 
       - name: Commit + push
