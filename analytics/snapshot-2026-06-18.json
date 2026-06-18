@@ -1,11 +1,11 @@
 {
-  "snapshot_at": "2026-06-18T18:23:18Z",
+  "snapshot_at": "2026-06-18T19:37:42Z",
   "date": "2026-06-18",
   "total_downloads": 719,
   "dmg_total": 608,
   "delta_total": 53,
-  "dmg_new_today": 4,
-  "total_new_today": 4,
+  "dmg_new_today": 0,
+  "total_new_today": 0,
   "dmg_per_version": [
     {
       "tag": "windows-v0.1.0",
@@ -104,7 +104,7 @@
           "name": "Kviskr_0.1.0_x64-setup.exe"
         }
       ],
-      "published_at": "2026-06-18T18:23:11Z",
+      "published_at": "2026-06-18T19:37:31Z",
       "tag": "windows-v0.1.0"
     },
     {
