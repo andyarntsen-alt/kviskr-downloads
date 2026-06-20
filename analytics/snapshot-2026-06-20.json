@@ -1,11 +1,11 @@
 {
-  "snapshot_at": "2026-06-20T18:59:55Z",
+  "snapshot_at": "2026-06-20T23:10:58Z",
   "date": "2026-06-20",
-  "total_downloads": 720,
+  "total_downloads": 723,
   "dmg_total": 609,
   "delta_total": 53,
   "dmg_new_today": 0,
-  "total_new_today": 0,
+  "total_new_today": 3,
   "dmg_per_version": [
     {
       "tag": "windows-v0.1.0",
@@ -96,11 +96,11 @@
     {
       "assets": [
         {
-          "download_count": 0,
+          "download_count": 1,
           "name": "Kviskr_0.1.0_arm64-setup.exe"
         },
         {
-          "download_count": 0,
+          "download_count": 2,
           "name": "Kviskr_0.1.0_x64-setup.exe"
         }
       ],
