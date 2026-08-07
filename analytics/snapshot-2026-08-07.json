@@ -1,11 +1,11 @@
 {
-  "snapshot_at": "2026-08-07T01:30:32Z",
+  "snapshot_at": "2026-08-07T22:37:16Z",
   "date": "2026-08-07",
-  "total_downloads": 846,
-  "dmg_total": 726,
+  "total_downloads": 854,
+  "dmg_total": 733,
   "delta_total": 55,
-  "dmg_new_today": 2,
-  "total_new_today": 3,
+  "dmg_new_today": 7,
+  "total_new_today": 8,
   "dmg_per_version": [
     {
       "tag": "windows-v0.1.0",
@@ -13,7 +13,7 @@
     },
     {
       "tag": "v0.5.2",
-      "dmg": 406
+      "dmg": 413
     },
     {
       "tag": "v0.5.1",
@@ -110,11 +110,11 @@
     {
       "assets": [
         {
-          "download_count": 31,
+          "download_count": 32,
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 406,
+          "download_count": 413,
           "name": "Kviskr.dmg"
         },
         {
