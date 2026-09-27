@@ -6,6 +6,16 @@
     <description>Oppdateringer for Kviskr</description>
     <language>no</language>
     <item>
+      <title>Kviskr 0.6.0</title>
+      <pubDate>Sun, 27 Sep 2026 20:36:04 +0200</pubDate>
+      <link>https://kviskr.no</link>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.1</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <enclosure url="https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v0.6.0/Kviskr.dmg" length="589643565" type="application/octet-stream" sparkle:edSignature="GsTuW0rpKGvota+vGJpARRS9ijDXqjwehr17Un+OLtm2GRZaKFw2vY8XOq6SB0gIQgvKNWtYKG2SwitDXKCsCQ==" />
+    </item>
+    <item>
       <title>Kviskr 0.5.2</title>
       <pubDate>Tue, 12 May 2026 20:00:05 +0200</pubDate>
       <link>https://kviskr.no</link>
