@@ -1,35 +1,39 @@
 {
-  "snapshot_at": "2026-09-27T00:19:31Z",
+  "snapshot_at": "2026-09-27T18:58:17Z",
   "date": "2026-09-27",
-  "total_downloads": 1036,
-  "dmg_total": 904,
+  "total_downloads": 1049,
+  "dmg_total": 915,
   "delta_total": 62,
-  "dmg_new_today": 3,
-  "total_new_today": 3,
+  "dmg_new_today": 11,
+  "total_new_today": 13,
   "dmg_per_version": [
     {
       "tag": "windows-v0.1.0",
       "dmg": 0
     },
     {
+      "tag": "v0.6.0",
+      "dmg": 0
+    },
+    {
       "tag": "v0.5.2",
-      "dmg": 584
+      "dmg": 591
     },
     {
       "tag": "v0.5.1",
-      "dmg": 22
+      "dmg": 23
     },
     {
       "tag": "v0.5.0",
-      "dmg": 7
+      "dmg": 8
     },
     {
       "tag": "v0.4.2",
-      "dmg": 32
+      "dmg": 33
     },
     {
       "tag": "v0.4.1",
-      "dmg": 55
+      "dmg": 56
     },
     {
       "tag": "v0.4.0",
@@ -110,11 +114,29 @@
     {
       "assets": [
         {
+          "download_count": 0,
+          "name": "Kviskr.app.dSYM.zip"
+        },
+        {
+          "download_count": 0,
+          "name": "Kviskr.dmg"
+        },
+        {
+          "download_count": 0,
+          "name": "Kviskr31-30.delta"
+        }
+      ],
+      "published_at": "2026-09-27T18:58:10Z",
+      "tag": "v0.6.0"
+    },
+    {
+      "assets": [
+        {
           "download_count": 32,
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 584,
+          "download_count": 591,
           "name": "Kviskr.dmg"
         },
         {
@@ -156,7 +178,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 22,
+          "download_count": 23,
           "name": "Kviskr.dmg"
         }
       ],
@@ -166,11 +188,11 @@
     {
       "assets": [
         {
-          "download_count": 2,
+          "download_count": 3,
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 7,
+          "download_count": 8,
           "name": "Kviskr.dmg"
         },
         {
@@ -216,11 +238,11 @@
     {
       "assets": [
         {
-          "download_count": 1,
+          "download_count": 2,
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 32,
+          "download_count": 33,
           "name": "Kviskr.dmg"
         }
       ],
@@ -234,7 +256,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 55,
+          "download_count": 56,
           "name": "Kviskr.dmg"
         },
         {
