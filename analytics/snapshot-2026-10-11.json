@@ -1,23 +1,27 @@
 {
-  "snapshot_at": "2026-10-11T00:42:51Z",
+  "snapshot_at": "2026-10-11T11:27:16Z",
   "date": "2026-10-11",
-  "total_downloads": 1236,
-  "dmg_total": 1091,
+  "total_downloads": 1239,
+  "dmg_total": 1094,
   "delta_total": 68,
-  "dmg_new_today": 4,
-  "total_new_today": 5,
+  "dmg_new_today": 3,
+  "total_new_today": 3,
   "dmg_per_version": [
     {
       "tag": "windows-v0.1.0",
       "dmg": 0
     },
     {
+      "tag": "ekko-beta1",
+      "dmg": 0
+    },
+    {
       "tag": "v0.6.1",
-      "dmg": 107
+      "dmg": 109
     },
     {
       "tag": "v0.6.0",
-      "dmg": 64
+      "dmg": 65
     },
     {
       "tag": "v0.5.2",
@@ -119,10 +123,20 @@
       "assets": [
         {
           "download_count": 0,
+          "name": "nb-whisper-large-kviskr-ekko-beta1-q5_0.bin"
+        }
+      ],
+      "published_at": "2026-10-11T11:27:11Z",
+      "tag": "ekko-beta1"
+    },
+    {
+      "assets": [
+        {
+          "download_count": 0,
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 107,
+          "download_count": 109,
           "name": "Kviskr.dmg"
         },
         {
@@ -152,7 +166,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 64,
+          "download_count": 65,
           "name": "Kviskr.dmg"
         }
       ],
