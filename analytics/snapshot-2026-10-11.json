@@ -1,14 +1,18 @@
 {
-  "snapshot_at": "2026-10-11T11:27:16Z",
+  "snapshot_at": "2026-10-11T12:08:12Z",
   "date": "2026-10-11",
-  "total_downloads": 1239,
-  "dmg_total": 1094,
+  "total_downloads": 1244,
+  "dmg_total": 1098,
   "delta_total": 68,
-  "dmg_new_today": 3,
-  "total_new_today": 3,
+  "dmg_new_today": 4,
+  "total_new_today": 5,
   "dmg_per_version": [
     {
       "tag": "windows-v0.1.0",
+      "dmg": 0
+    },
+    {
+      "tag": "v0.7.0",
       "dmg": 0
     },
     {
@@ -17,19 +21,19 @@
     },
     {
       "tag": "v0.6.1",
-      "dmg": 109
+      "dmg": 110
     },
     {
       "tag": "v0.6.0",
-      "dmg": 65
+      "dmg": 66
     },
     {
       "tag": "v0.5.2",
-      "dmg": 593
+      "dmg": 594
     },
     {
       "tag": "v0.5.1",
-      "dmg": 24
+      "dmg": 25
     },
     {
       "tag": "v0.5.0",
@@ -123,6 +127,36 @@
       "assets": [
         {
           "download_count": 0,
+          "name": "Kviskr.app.dSYM.zip"
+        },
+        {
+          "download_count": 0,
+          "name": "Kviskr.dmg"
+        },
+        {
+          "download_count": 0,
+          "name": "Kviskr38-32.delta"
+        },
+        {
+          "download_count": 0,
+          "name": "Kviskr38-33.delta"
+        },
+        {
+          "download_count": 0,
+          "name": "Kviskr38-35.delta"
+        },
+        {
+          "download_count": 0,
+          "name": "Kviskr38-37.delta"
+        }
+      ],
+      "published_at": "2026-10-11T12:08:06Z",
+      "tag": "v0.7.0"
+    },
+    {
+      "assets": [
+        {
+          "download_count": 1,
           "name": "nb-whisper-large-kviskr-ekko-beta1-q5_0.bin"
         }
       ],
@@ -136,7 +170,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 109,
+          "download_count": 110,
           "name": "Kviskr.dmg"
         },
         {
@@ -166,7 +200,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 65,
+          "download_count": 66,
           "name": "Kviskr.dmg"
         }
       ],
@@ -180,7 +214,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 593,
+          "download_count": 594,
           "name": "Kviskr.dmg"
         },
         {
@@ -222,7 +256,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 24,
+          "download_count": 25,
           "name": "Kviskr.dmg"
         }
       ],
