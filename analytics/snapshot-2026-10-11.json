@@ -1,19 +1,23 @@
 {
-  "snapshot_at": "2026-10-11T12:08:12Z",
+  "snapshot_at": "2026-10-11T16:53:32Z",
   "date": "2026-10-11",
-  "total_downloads": 1244,
-  "dmg_total": 1098,
-  "delta_total": 68,
-  "dmg_new_today": 4,
-  "total_new_today": 5,
+  "total_downloads": 1345,
+  "dmg_total": 1173,
+  "delta_total": 92,
+  "dmg_new_today": 75,
+  "total_new_today": 101,
   "dmg_per_version": [
     {
       "tag": "windows-v0.1.0",
       "dmg": 0
     },
     {
-      "tag": "v0.7.0",
+      "tag": "v0.7.1",
       "dmg": 0
+    },
+    {
+      "tag": "v0.7.0",
+      "dmg": 11
     },
     {
       "tag": "ekko-beta1",
@@ -21,91 +25,91 @@
     },
     {
       "tag": "v0.6.1",
-      "dmg": 110
+      "dmg": 114
     },
     {
       "tag": "v0.6.0",
-      "dmg": 66
+      "dmg": 71
     },
     {
       "tag": "v0.5.2",
-      "dmg": 594
+      "dmg": 599
     },
     {
       "tag": "v0.5.1",
-      "dmg": 25
+      "dmg": 29
     },
     {
       "tag": "v0.5.0",
-      "dmg": 9
+      "dmg": 12
     },
     {
       "tag": "v0.4.2",
-      "dmg": 34
+      "dmg": 36
     },
     {
       "tag": "v0.4.1",
-      "dmg": 56
+      "dmg": 58
     },
     {
       "tag": "v0.4.0",
-      "dmg": 44
-    },
-    {
-      "tag": "v0.3.6",
-      "dmg": 19
-    },
-    {
-      "tag": "v0.3.5",
       "dmg": 46
     },
     {
+      "tag": "v0.3.6",
+      "dmg": 21
+    },
+    {
+      "tag": "v0.3.5",
+      "dmg": 47
+    },
+    {
       "tag": "v0.3.4",
-      "dmg": 14
+      "dmg": 15
     },
     {
       "tag": "v0.3.3",
-      "dmg": 34
+      "dmg": 37
     },
     {
       "tag": "v0.3.2",
-      "dmg": 7
+      "dmg": 11
     },
     {
       "tag": "v0.3.1",
-      "dmg": 23
+      "dmg": 26
     },
     {
       "tag": "v0.3.0",
-      "dmg": 4
+      "dmg": 7
     },
     {
       "tag": "v0.2.3",
-      "dmg": 3
+      "dmg": 6
     },
     {
       "tag": "v0.2.2",
-      "dmg": 2
+      "dmg": 5
     },
     {
       "tag": "v0.2.1",
-      "dmg": 3
+      "dmg": 5
     },
     {
       "tag": "v0.2.0",
-      "dmg": 1
+      "dmg": 4
     },
     {
       "tag": "v0.1.2",
-      "dmg": 1
+      "dmg": 4
     },
     {
       "tag": "v0.1.1",
-      "dmg": 1
+      "dmg": 3
     },
     {
       "tag": "v0.1.0",
-      "dmg": 2
+      "dmg": 6
     }
   ],
   "releases": [
@@ -135,18 +139,48 @@
         },
         {
           "download_count": 0,
+          "name": "Kviskr39-33.delta"
+        },
+        {
+          "download_count": 0,
+          "name": "Kviskr39-35.delta"
+        },
+        {
+          "download_count": 0,
+          "name": "Kviskr39-37.delta"
+        },
+        {
+          "download_count": 0,
+          "name": "Kviskr39-38.delta"
+        }
+      ],
+      "published_at": "2026-10-11T16:53:26Z",
+      "tag": "v0.7.1"
+    },
+    {
+      "assets": [
+        {
+          "download_count": 0,
+          "name": "Kviskr.app.dSYM.zip"
+        },
+        {
+          "download_count": 11,
+          "name": "Kviskr.dmg"
+        },
+        {
+          "download_count": 2,
           "name": "Kviskr38-32.delta"
         },
         {
-          "download_count": 0,
+          "download_count": 2,
           "name": "Kviskr38-33.delta"
         },
         {
-          "download_count": 0,
+          "download_count": 5,
           "name": "Kviskr38-35.delta"
         },
         {
-          "download_count": 0,
+          "download_count": 15,
           "name": "Kviskr38-37.delta"
         }
       ],
@@ -156,7 +190,7 @@
     {
       "assets": [
         {
-          "download_count": 1,
+          "download_count": 3,
           "name": "nb-whisper-large-kviskr-ekko-beta1-q5_0.bin"
         }
       ],
@@ -170,7 +204,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 110,
+          "download_count": 114,
           "name": "Kviskr.dmg"
         },
         {
@@ -200,7 +234,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 66,
+          "download_count": 71,
           "name": "Kviskr.dmg"
         }
       ],
@@ -214,7 +248,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 594,
+          "download_count": 599,
           "name": "Kviskr.dmg"
         },
         {
@@ -256,7 +290,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 25,
+          "download_count": 29,
           "name": "Kviskr.dmg"
         }
       ],
@@ -270,7 +304,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 9,
+          "download_count": 12,
           "name": "Kviskr.dmg"
         },
         {
@@ -320,7 +354,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 34,
+          "download_count": 36,
           "name": "Kviskr.dmg"
         }
       ],
@@ -334,7 +368,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 56,
+          "download_count": 58,
           "name": "Kviskr.dmg"
         },
         {
@@ -372,7 +406,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 44,
+          "download_count": 46,
           "name": "Kviskr.dmg"
         },
         {
@@ -410,7 +444,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 19,
+          "download_count": 21,
           "name": "Kviskr.dmg"
         },
         {
@@ -440,7 +474,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 46,
+          "download_count": 47,
           "name": "Kviskr.dmg"
         }
       ],
@@ -454,7 +488,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 14,
+          "download_count": 15,
           "name": "Kviskr.dmg"
         }
       ],
@@ -468,7 +502,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 34,
+          "download_count": 37,
           "name": "Kviskr.dmg"
         }
       ],
@@ -478,7 +512,7 @@
     {
       "assets": [
         {
-          "download_count": 7,
+          "download_count": 11,
           "name": "Kviskr.dmg"
         }
       ],
@@ -488,7 +522,7 @@
     {
       "assets": [
         {
-          "download_count": 23,
+          "download_count": 26,
           "name": "Kviskr.dmg"
         }
       ],
@@ -498,7 +532,7 @@
     {
       "assets": [
         {
-          "download_count": 4,
+          "download_count": 7,
           "name": "Kviskr.dmg"
         }
       ],
@@ -512,7 +546,7 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 3,
+          "download_count": 6,
           "name": "Kviskr.dmg"
         }
       ],
@@ -522,7 +556,7 @@
     {
       "assets": [
         {
-          "download_count": 2,
+          "download_count": 5,
           "name": "Kviskr.dmg"
         }
       ],
@@ -532,7 +566,7 @@
     {
       "assets": [
         {
-          "download_count": 3,
+          "download_count": 5,
           "name": "Kviskr.dmg"
         }
       ],
@@ -542,7 +576,7 @@
     {
       "assets": [
         {
-          "download_count": 1,
+          "download_count": 4,
           "name": "Kviskr.dmg"
         },
         {
@@ -556,7 +590,7 @@
     {
       "assets": [
         {
-          "download_count": 1,
+          "download_count": 4,
           "name": "Kviskr.dmg"
         }
       ],
@@ -566,7 +600,7 @@
     {
       "assets": [
         {
-          "download_count": 1,
+          "download_count": 3,
           "name": "Kviskr.dmg"
         }
       ],
@@ -576,7 +610,7 @@
     {
       "assets": [
         {
-          "download_count": 2,
+          "download_count": 6,
           "name": "Kviskr.dmg"
         }
       ],
