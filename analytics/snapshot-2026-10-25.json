@@ -1,11 +1,11 @@
 {
-  "snapshot_at": "2026-10-25T00:03:42Z",
+  "snapshot_at": "2026-10-25T23:54:54Z",
   "date": "2026-10-25",
-  "total_downloads": 1877,
-  "dmg_total": 1595,
-  "delta_total": 175,
-  "dmg_new_today": 57,
-  "total_new_today": 62,
+  "total_downloads": 2028,
+  "dmg_total": 1741,
+  "delta_total": 179,
+  "dmg_new_today": 146,
+  "total_new_today": 151,
   "dmg_per_version": [
     {
       "tag": "windows-v0.1.0",
@@ -13,7 +13,7 @@
     },
     {
       "tag": "v0.7.1",
-      "dmg": 392
+      "dmg": 538
     },
     {
       "tag": "v0.7.0",
@@ -134,23 +134,23 @@
           "name": "Kviskr.app.dSYM.zip"
         },
         {
-          "download_count": 392,
+          "download_count": 538,
           "name": "Kviskr.dmg"
         },
         {
-          "download_count": 14,
+          "download_count": 15,
           "name": "Kviskr39-33.delta"
         },
         {
-          "download_count": 14,
+          "download_count": 15,
           "name": "Kviskr39-35.delta"
         },
         {
-          "download_count": 39,
+          "download_count": 40,
           "name": "Kviskr39-37.delta"
         },
         {
-          "download_count": 15,
+          "download_count": 16,
           "name": "Kviskr39-38.delta"
         }
       ],
@@ -190,7 +190,7 @@
     {
       "assets": [
         {
-          "download_count": 29,
+          "download_count": 30,
           "name": "nb-whisper-large-kviskr-ekko-beta1-q5_0.bin"
         }
       ],
